@@ -1,6 +1,6 @@
 # SAMGPT
 
-This is my works on inverse design on self-assembled-monolayers (Also other types of molecule if you want)
+This is my final year project,works on inverse design of self-assembled-monolayers (Also other types of molecule if you want)
 
 **prop_finetuning**\
 This file contains codes for both struture and property conditional generation.
