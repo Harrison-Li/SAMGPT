@@ -12,7 +12,7 @@ This file contains codes for just strcture constrained generation.
 This file contains codes for visualization of the generation. Highlighting next token with different to represent its probability to be generated.
 
 
-## Dataser I used.
+## Dataset I used.
 
 | Source                        | Dataset             | Samples          | Block Size (SMILES Len)         | Maximum Scaffold Length |
 |-------------------------------|---------------------|------------------|---------------------------------|---------------------------|
