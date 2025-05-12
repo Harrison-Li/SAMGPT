@@ -18,7 +18,7 @@ This file contains codes for visualization of the generation. Highlighting next 
 |-------------------------------|---------------------|------------------|---------------------------------|---------------------------|
 | Zinc                          |       MOSES         | 1.9 million      | 54 (train), 51 (validation)      | 48                          |
 | ChEMBL                        |      Guacamol       | 1.6 million      | 100 (train), 99 (validation)     | 100                       |
-| 10.1021/acs.jcim.6b00340      | frontier orbitals   | 111,725 mols     | 111,275                          | 148                       |
+| 10.1021/acs.jcim.6b00340      | frontier orbitals   | 111,725 mols     | 148                              | 115                      |
 | PSC literatures               | SAMs                | 200              | 202                              | 123                       |
 
 
