@@ -29,3 +29,4 @@ This file contains codes for visualization of the generation. Highlighting next 
 
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
+![SAM Candidates](<SAM candidates/candidates2.jpg>)
