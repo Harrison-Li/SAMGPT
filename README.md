@@ -26,3 +26,6 @@ This file contains codes for visualization of the generation. Highlighting next 
 1. Before getting the pre-trained model weight, remember to check the vocabulary of you dataset. Vocabulary size mismatch might leads to failure!
 2. I suggest first traing the base model with MOSES and Guacamol with scaffold constrained. Each pre-trained has its different applications due to the distribution of SMILES length
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
+
+## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
+![Alt Text](SAM candidates/candidates.pdf)
