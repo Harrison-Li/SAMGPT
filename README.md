@@ -28,4 +28,4 @@ This file contains codes for visualization of the generation. Highlighting next 
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
-![Alt Text](SAM candidates/candidates.png)
+![Alt Text](SAM candidates/candidates.jpg)
