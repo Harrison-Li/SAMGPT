@@ -9,7 +9,7 @@ This file contains codes for both struture and property conditional generation.
 This file contains codes for just strcture constrained generation.
 
 **salience_map**
-This file contains codes for visualization of the generation. Highlighting next token with different to represent its probability to be generated.
+This file contains codes for visualization of the generation. Highlighting next token with gradient colors to represent its probability to be generated.
 
 
 ## Dataset I used.
