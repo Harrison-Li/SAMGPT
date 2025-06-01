@@ -3,7 +3,7 @@
 This is my final year project,works on inverse design of self-assembled-monolayers (Also other types of molecule if you want)
 
 **prop_finetuning**\
-This file contains codes for both struture and property conditional generation.
+This file contains codes for both struture and property conditional generation.\
 Compared with original MolGPT, I added an adapter module and classfier-free guidance allow users finetuning the model with a mixure of data (Structures with property or not). This method allows the model both incorperate the information of pre-train learned structure and finetuning property values.
 
 **scaf_finetuning**\
