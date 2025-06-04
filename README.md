@@ -29,7 +29,8 @@ This file contains codes for visualization of the generation. Highlighting next 
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
 ## Script for execution.
-'''bash
+
+```bash
 nohup python ./prop_finetuning/cond_finetune.py \
   --run_name homo_lumo_Fine_tuning \
   --train_data_name full_prop_train_mix \
@@ -40,6 +41,8 @@ nohup python ./prop_finetuning/cond_finetune.py \
   --batch_size 200 \
   --max_epochs 10 \
   >> ./homo_lumo_Fine_tuning_mix.log 2>&1 &
+```
+
 
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
