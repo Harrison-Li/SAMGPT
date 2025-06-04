@@ -41,7 +41,7 @@ nohup python ./prop_finetuning/cond_finetune.py \
   --batch_size 200 \
   --max_epochs 10 \
   >> ./homo_lumo_Fine_tuning_mix.log 2>&1 &
-'''
+>  > 
 
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
