@@ -55,6 +55,9 @@ nohup python ./prop_finetuning/scaf_prop_generate.py \
   --batch_size 200 \
   >> ./prop_homo_lumo_generated_fine_tune.log 2>&1 &
 ```
+## Model weight for reproducing
+
+[Google Drive: Model Weights](https://drive.google.com/drive/folders/17zEuHTCbWWszKTqHvQ01PQsOClcYiG-t?usp=sharing)
 
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
