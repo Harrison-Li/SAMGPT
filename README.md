@@ -31,28 +31,28 @@ This file contains codes for visualization of the generation. Highlighting next 
 ## Script for finetuning.
 
 ```bash
-nohup python ./prop_finetuning/cond_finetune.py \
-  --run_name homo_lumo_Fine_tuning \
-  --train_data_name full_prop_train_mix \
-  --val_data_name full_prop_valid \
-  --cond_props homo lumo \
-  --pretrained_model_weight ./weights/scaffold_guacamol_all.pt \
-  --output_ckpt homo_lumo_fine_tunning_mix.pt \
-  --batch_size 200 \
-  --max_epochs 10 \
+nohup python ./prop_finetuning/cond_finetune.py 
+  --run_name homo_lumo_Fine_tuning 
+  --train_data_name full_prop_train_mix 
+  --val_data_name full_prop_valid 
+  --cond_props homo lumo 
+  --pretrained_model_weight ./weights/scaffold_guacamol_all.pt 
+  --output_ckpt homo_lumo_fine_tunning_mix.pt 
+  --batch_size 200 
+  --max_epochs 10 
   >> ./homo_lumo_Fine_tuning_mix.log 2>&1 &
 ```
 ## Script for conditional generation
 ```bash
-nohup python ./prop_finetuning/scaf_prop_generate.py \
-  --model_weight ./homo_lumo_fine_tunning_mix.pt \
-  --scaffold \
-  --csv_name gen_homo_lumo_mix.csv \
-  --cond_props homo lumo \
-  --gen_size 1000 \
-  --vocab_size 143 \
-  --block_size 202 \
-  --batch_size 200 \
+nohup python ./prop_finetuning/scaf_prop_generate.py 
+  --model_weight ./homo_lumo_fine_tunning_mix.pt 
+  --scaffold 
+  --csv_name gen_homo_lumo_mix.csv 
+  --cond_props homo lumo 
+  --gen_size 1000 
+  --vocab_size 143 
+  --block_size 202 
+  --batch_size 200 
   >> ./prop_homo_lumo_generated_fine_tune.log 2>&1 &
 ```
 ## Model weight for reproducing
