@@ -28,6 +28,21 @@ This file contains codes for visualization of the generation. Highlighting next 
 2. I suggest first traing the base model with MOSES and Guacamol with scaffold constrained. Each pre-trained has its different applications due to the distribution of SMILES length
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
+## Script for execution.
+
+```bash
+nohup python ./prop_finetuning/cond_finetune.py \
+  --run_name homo_lumo_Fine_tuning \
+  --train_data_name full_prop_train_mix \
+  --val_data_name full_prop_valid \
+  --cond_props homo lumo \
+  --pretrained_model_weight ./weights/scaffold_guacamol_all.pt \
+  --output_ckpt homo_lumo_fine_tunning_mix.pt \
+  --batch_size 200 \
+  --max_epochs 10 \
+  >> ./homo_lumo_Fine_tuning_mix.log 2>&1 &
+'''
+
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
 ![SAM Candidates](<SAM candidates/candidates2.jpg>)
