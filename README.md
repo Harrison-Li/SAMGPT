@@ -62,9 +62,9 @@ nohup python ./prop_finetuning/scaf_prop_generate.py
 
 ## Property conditional generation results
 ### Single property (LogP)
-![LogP_dis](<figures/logp_hist.pdf>)
+![LogP_dis](<figures/logp_hist.jpg>)
 ### Multi-properties (LogP, TPSA)
-![LogP_TPSA_dis](<figures/logp_tpsa_hist.pdf>)
+![LogP_TPSA_dis](<figures/logp_tpsa_hist.jp2>)
 
 
 
