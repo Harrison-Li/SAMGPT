@@ -59,6 +59,15 @@ nohup python ./prop_finetuning/scaf_prop_generate.py
 
 [Google Drive: Model Weights](https://drive.google.com/drive/folders/17zEuHTCbWWszKTqHvQ01PQsOClcYiG-t?usp=sharing)
 
+
+## Property conditional generation results
+### Single property (LogP)
+![LogP_dis](<figures/logp_hist.jpg>)
+### Multi-properties (LogP, TPSA)
+![LogP_TPSA_dis]<figures/logp_tpsa_hist.jpg>
+
+
+
 ## Generated structures (-5.3 eV HOMO, -1.02 eV LUMO)
 ![SAM Candidates](<SAM candidates/candidates.jpg>)
 ![SAM Candidates](<SAM candidates/candidates2.jpg>)
