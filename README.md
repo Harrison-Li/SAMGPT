@@ -64,7 +64,7 @@ nohup python ./prop_finetuning/scaf_prop_generate.py
 ### Single property (LogP)
 ![LogP_dis](<figures/logp_hist.jpg>)
 ### Multi-properties (LogP, TPSA)
-![LogP_TPSA_dis](<figures/logp_tpsa_hist.jp2>)
+![LogP_TPSA_dis](<figures/logp_tpsa_hist.jpg>)
 
 
 
