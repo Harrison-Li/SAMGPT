@@ -28,6 +28,9 @@ This file contains codes for visualization of the generation. Highlighting next 
 2. I suggest first traing the base model with MOSES and Guacamol with scaffold constrained. Each pre-trained has its different applications due to the distribution of SMILES length
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
+## Adapted model architecture
+![Adapter](<figures/adapter.jpg>)
+
 ## Script for finetuning.
 
 ```bash
