@@ -29,7 +29,7 @@ This file contains codes for visualization of the generation. Highlighting next 
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
 ## Adapted model architecture
-<img src="figures/adapter.jpg" alt="Adapter" width="40%">
+<img src="figures/adapter.jpg" alt="Adapter" width="60%">
 
 ## Script for finetuning.
 
@@ -65,7 +65,7 @@ nohup python ./prop_finetuning/scaf_prop_generate.py
 
 ## Property conditional generation results
 ### Single property (LogP)
-![LogP_dis](<figures/logp_hist.jpg>)
+<img src="figures/logp_hist.jpg" alt="Adapter" width="60%">
 ### Multi-properties (LogP, TPSA)
 ![LogP_TPSA_dis](<figures/logp_tpsa_hist.jpg>)
 
