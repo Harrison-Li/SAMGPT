@@ -29,7 +29,7 @@ This file contains codes for visualization of the generation. Highlighting next 
 3. Do scaffold finetuning (SAMs or frontier orbitals) or property finetuning (frontier orbitals).
 
 ## Adapted model architecture
-<img src="figures/adapter.jpg" alt="Adapter" width="60%">
+<img src="figures/adapter.jpg" alt="Adapter" width="40%">
 
 ## Script for finetuning.
 
